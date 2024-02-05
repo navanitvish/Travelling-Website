@@ -9,8 +9,8 @@ import Review from "./Components/Review/Review";
 import Question from "./Components/Questions/Question";
 import Subscribe from "./Components/Subscribes/Subscribe";
 import Footer from "./Components/Footers/Footer";
-import SignIn from "./Components/SignUp/SignIn";
-import Login from "./Components/LogIn/Login";
+// import SignIn from "./Components/SignUp/SignIn";
+// import Login from "./Components/LogIn/Login";
 
 function App() {
   return (
@@ -25,8 +25,8 @@ function App() {
       <Subscribe />
       <Footer />
 
-      <SignIn />
-      <Login />
+      {/* <SignIn />
+      <Login /> */}
     </div>
   );
 }
